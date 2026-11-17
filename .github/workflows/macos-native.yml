@@ -2,10 +2,10 @@ name: macOS native
 
 on:
   pull_request:
-    branches: [main]
+    branches: [main, ci/macos-native-validation]
     paths: ['app/**', 'assets/brand/**', '.github/workflows/macos-native.yml']
   push:
-    branches: [main]
+    branches: [main, ci/macos-native-validation]
     paths: ['app/**', 'assets/brand/**', '.github/workflows/macos-native.yml']
   workflow_dispatch:
 

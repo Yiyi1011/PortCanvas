@@ -2,10 +2,10 @@ name: Windows native probe
 
 on:
   pull_request:
-    branches: [main]
+    branches: [main, ci/macos-native-validation]
     paths: ['app/native-probe/**', 'app/core/**', 'app/vendor/**', 'app/tools/build-native.sh', '.gitattributes', '.github/workflows/windows-native-probe.yml']
   push:
-    branches: [main]
+    branches: [main, ci/macos-native-validation]
     paths: ['app/native-probe/**', 'app/core/**', 'app/vendor/**', 'app/tools/build-native.sh', '.gitattributes', '.github/workflows/windows-native-probe.yml']
 
 permissions:

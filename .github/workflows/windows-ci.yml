@@ -2,9 +2,9 @@ name: Windows CI
 
 on:
   pull_request:
-    branches: [main]
+    branches: [main, ci/macos-native-validation]
   push:
-    branches: [main]
+    branches: [main, ci/macos-native-validation]
 
 permissions:
   contents: read
